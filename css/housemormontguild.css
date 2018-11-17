@@ -1,5 +1,6 @@
-*{
+body{
 	background-color: #ffcc66;
+	background-image: url(images/texture1.jpg);
 	text-align: center;
 }
 #id01{
@@ -44,6 +45,9 @@ table, th, td{
 	border-collapse: collapse;
 	border-color: #800000;
 	font-family: fantasy,sans-serif;
+	align-items: center;
+	align-content: center;
+	align-self: center;
 }
 th,td{
 	padding: 15px;
@@ -61,6 +65,7 @@ table{
 	font-size: 30px;
 	font: italic 30px sans-serif;
 	font-weight: bold;
+	padding-bottom: 50px;
 }
 p{
 	font-family: fantasy,sans-serif;
